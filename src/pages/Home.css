@@ -1,0 +1,181 @@
+.feature-row {
+  display: flex;
+  justify-content: center;
+  gap: 20px;
+  margin-top: 20px;
+  flex-wrap: wrap; /* Allows wrapping on smaller screens */
+}
+
+.feature-card {
+  background: #f4f4f4;
+  padding: 20px;
+  border-radius: 10px;
+  width: 150px;
+  text-align: center;
+  transition: transform 0.3s ease;
+  cursor: pointer;
+}
+
+.feature-card:hover {
+  transform: translateY(-5px); /* Simple lift effect on hover */
+  background: #e0e0e0;
+}
+
+.feature-icon {
+  font-size: 2.5rem;
+}
+.choose-section p {
+margin-top: 40px;
+}
+.why-choose-item {
+  display: flex;       /* This puts children side-by-side */
+  align-items: center; /* Aligns them vertically in the middle */
+  gap: 15px; 
+  font-size: smaller;          /* Adds space between the H1 and the P */
+}
+
+.why-choose-item h1 {
+  margin: 0;           /* Removes default spacing that might break alignment */
+  white-space: nowrap; /* Prevents "Quality & Taste" from breaking into two lines */
+}
+
+.why-choose-item p {
+  margin: 0;           /* Removes default paragraph spacing */
+}
+.why-choose-us {
+  display: flex;       /* This puts children side-by-side */
+  align-items: center; /* Aligns them vertically in the middle */
+  gap: 15px;
+  font-size: small;           /* Adds space between the H1 and the P */
+}
+
+.why-choose-us h1 {
+  margin: 0;           /* Removes default spacing that might break alignment */
+  white-space: nowrap; /* Prevents "Quality & Taste" from breaking into two lines */
+}
+
+.why-choose-us p {
+  margin: 0;           /* Removes default paragraph spacing */
+}
+.why-this-restaurant {
+  display: flex;       /* This puts children side-by-side */
+  align-items: center; /* Aligns them vertically in the middle */
+  gap: 15px;
+  font-size: small;           /* Adds space between the H1 and the P */
+}
+
+.why-this-restaurant h1 {
+  margin: 0;           /* Removes default spacing that might break alignment */
+  white-space: nowrap; /* Prevents "Quality & Taste" from breaking into two lines */
+}
+
+.why-this-restaurant p {
+  margin: 0;           /* Removes default paragraph spacing */
+}
+.why-with-us {
+  display: flex;       /* This puts children side-by-side */
+  align-items: center; /* Aligns them vertically in the middle */
+  gap: 15px;
+  font-size: small;           /* Adds space between the H1 and the P */
+}
+
+.why-with-us h1 {
+  margin: 0;           /* Removes default spacing that might break alignment */
+  white-space: nowrap; /* Prevents "Quality & Taste" from breaking into two lines */
+}
+
+.why-with-us p {
+  margin: 0;           /* Removes default paragraph spacing */
+}
+.our-content {
+    display: flex;       /* This puts children side-by-side */
+  align-items: center; /* Aligns them vertically in the middle */
+  gap: 15px;
+  font-size: small; 
+  color: #e67e22;   
+}
+.inline-item {
+  display: flex;
+  justify-content: center; /* Heading aur P ko ek line mein lane ke liye */
+  align-items: center;
+  gap: 12px;
+  margin: 15px 0;
+  padding-left: 20px;
+}
+
+.inline-heading {
+  font-size: 1.1rem;
+  margin: 0;
+  white-space: nowrap; /* Heading ko wrap hone se rokta hai */
+  font-weight: bold;
+}
+
+.inline-text {
+  margin: 0;
+  color: #555;
+  display: flex;
+  justify-content: center;
+}
+
+.point-icon {
+  color: #e67e22;
+  font-size: 1.5rem;
+  min-width: 30px;
+}
+.gallery-img {
+  width: 200px;        /* Aap isse 150px bhi kar sakte hain agar mazeed chota chahiye */
+  height: 150px;       /* Height ko width ke hisaab se rakhein */
+  object-fit: cover;   /* Isse image kharab (stretch) nahi hogi */
+  border-radius: 10px; /* Corners ko round karne ke liye */
+  margin: 10px;        /* Thora gap dene ke liye */
+  display: flex;
+  justify-content: center;
+}
+.trust-badge span { 
+    display: flex;
+    justify-content: center;
+}
+.stars {
+  display: flex;
+  justify-content: center;
+}
+.social-proof {
+  display: flex;
+  justify-content: center;
+}
+.common-points {
+  display: flex;
+  justify-content: center;
+}
+.gallery-section h2 {
+  display: flex;
+  justify-content: center;
+  color: green;
+}
+.dish-card {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.featured-dishes-section h2{
+  display: flex;
+  justify-content: center;
+  color: red;
+}
+.hero-section h1 { 
+  display: flex;
+  justify-content: center;
+  color: green;
+}
+.hero-section p {
+  display: flex;
+  justify-content: center;
+  color: red;
+}
+.reserve-btn {
+  display: flex;
+  justify-content: center;
+}
+.home {
+  background: transparent;
+}

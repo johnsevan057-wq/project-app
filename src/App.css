@@ -1,0 +1,8 @@
+#root, body {
+  background: transparent;
+}
+
+/* sab main sections transparent karo */
+div {
+  background-color: transparent;
+}
