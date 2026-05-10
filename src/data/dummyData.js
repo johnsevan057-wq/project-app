@@ -16,18 +16,18 @@ import stawberryImg from '../assets/images/stawberry-brownie.jpg';
 import cakeImg from '../assets/images/cake.jpg';
 import vanillaImg from '../assets/images/vanilla.jpg';
 import ballImg from '../assets/images/balls.jpg';
-import croqueImg from '../assets/images/croque.jpg'
+import croqueImg from '../assets/images/croque.jpg';
 
 export const menu = {
   starters: [
-    {
-      id: 1,
-      name: "Balls",
-      description: "Kofta-Balls",
-      price: 120,
-      image: cokeImg,
-    },
-  ],
+  {
+    id: 1,
+    name: "Balls",
+    description: "Kofta-Balls",
+    price: 120,
+    image: ballImg,
+  },
+],
   Mains: [
 {
       id: 1,
