@@ -2,9 +2,9 @@ import React, { useState } from 'react';
 import './Home.css';
 
 // Images
-import biryaniImg from '../assets/images/Biryani.jpg';
-import cokeImg from '../assets/images/Coke.jpg'; 
-import chaiImg from '../assets/images/Chai.jpg';
+import biryaniImg from '../assets/images/biryani.jpg';
+import cokeImg from '../assets/images/coke.jpg'; 
+import chaiImg from '../assets/images/chai.jpg';
 import gulabImg from '../assets/images/images.jpg';
 import summerImg from '../assets/images/summer-beverages.jpg';
 import coffeeImg from '../assets/images/cold-coffee.jpg';
@@ -13,11 +13,11 @@ import allooImg from '../assets/images/allo-ghosht.jpg';
 import mangoImg from '../assets/images/mango-shake.jpg';
 import spriteImg from '../assets/images/sprint.jpg';
 import channaImg from '../assets/images/channa-platter.jpg';
-import kuormaImg from '../assets/images/Kuorma.jpg';
+import kuormaImg from '../assets/images/kuorma.jpg';
 import muttonImg from '../assets/images/mutton.jpg';
 import strawberryImg from '../assets/images/stawberry-brownie.jpg';
 import cakeImg from '../assets/images/cake.jpg';
-import vanillaImg from '../assets/images/Vanilla.jpg';
+import vanillaImg from '../assets/images/vanilla.jpg';
 
 // Icons
 import { FaStar, FaGoogle, FaClock, FaMoneyBillWave, FaLeaf, FaUtensils } from 'react-icons/fa';
